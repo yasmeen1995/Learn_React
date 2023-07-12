@@ -1,0 +1,44 @@
+h1 {
+  margin-bottom: 12px;
+}
+
+.card {
+  width: 200px;
+  border: 10px solid black;
+  margin: 40px;
+  height: 80px;
+}
+
+.card::after {
+  content: "";
+  display: block;
+}
+
+.avatar {
+  /* width: 200px; */
+  width: 100%;
+  display: block;
+}
+
+.data {
+  padding: 32px;
+  padding-top: 24px;
+}
+
+.skill-list {
+  list-style: none;
+  display: flex;
+  margin-top: 16px;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-bottom: 20px;
+}
+
+.skill {
+  padding: 2px 12px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
