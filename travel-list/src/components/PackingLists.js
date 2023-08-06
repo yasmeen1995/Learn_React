@@ -16,10 +16,6 @@ export default function PackingLists({ items, onDeleteItem, onToggleItem, onClea
               .slice()
               .sort((a,b) => Number(a.packed) - Number(b.packed));
   
-    // function handleClearList() {
-    //   sortedItems=""
-    // }
-  
     return (
       <div className="list">
         <ul>
