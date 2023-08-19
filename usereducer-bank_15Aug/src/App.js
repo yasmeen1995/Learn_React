@@ -62,7 +62,7 @@ function reducer(state, action) {
       if (state.loan > 0 || state.balance !== 0) return state;
       return initialState;
     default:
-      throw new Error("Unknown action!");
+      throw new Error("Opps!! Unknown action!");
   }
 }
 
