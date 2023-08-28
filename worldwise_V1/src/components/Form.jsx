@@ -114,11 +114,15 @@ function Form() {
         <label htmlFor="date">
           When did you go to {cityName} in {country}?
         </label>
+
         {/* <input
-          
+    
           onChange={(e) => setDate(e.target.value)}
           value={date}
-        /> */}
+        />
+        
+        the above logic written as below
+         */}
 
         <DatePicker
           id="date"
